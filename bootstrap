@@ -5,4 +5,4 @@ ls -al
 echo "#####################"
 cd /app
 #./proxy http -p :$PORT -t ws
-./httpcat.exe -p :$PORT
+./httpcat.exe server -p :$PORT
